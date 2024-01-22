@@ -420,6 +420,22 @@ namespace faces {
         }
     }
 
+    /**
+     * stop showing a face
+     */
+    //% block="hide face"
+    //% weight=20
+    export function hide_face() { 
+    // ensure we thwart any pending blinker or reverter too
+        myEyes = 0;
+        myMouth = 0;
+        litEyes = 0;
+        blinkGap = 0;
+        blinking = false;
+        reverting = false;
+        basic.clearScreen();
+    }
+
     // INITIALISE
 
     let myEyes = 0;
