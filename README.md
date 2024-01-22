@@ -126,6 +126,14 @@ If you click on the "+", you can set an optional parameter:
 > ``||faces:ms||`` - new length of a blink (in millisecs)
 
 
+## Blinking
+```sig
+faces.hideFace()
+```
+If you need to use the LED display for other purposes, this block lets you stop showing a face.
+It also stops any pending background actions such as temporary expression-changes or blinking.
+
+
 ## Examples
 Typically, the faces your micro:bit makes might be in response to various external stimuli, 
 such as light, noise, temperature, tilting or shaking;  --or maybe simply getting bored or sleepy!.

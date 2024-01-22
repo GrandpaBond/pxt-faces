@@ -425,8 +425,8 @@ namespace faces {
      */
     //% block="hide face"
     //% weight=20
-    export function hide_face() { 
-    // ensure we thwart any pending blinker or reverter too
+    export function hideFace() { 
+    // ensure that we thwart any pending blinker or reverter too
         myEyes = 0;
         myMouth = 0;
         litEyes = 0;
