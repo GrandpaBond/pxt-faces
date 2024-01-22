@@ -126,7 +126,7 @@ If you click on the "+", you can set an optional parameter:
 > ``||faces:ms||`` - new length of a blink (in millisecs)
 
 
-## Blinking
+## Finished showing Faces?
 ```sig
 faces.hideFace()
 ```
